@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "vitepress dev --host 0.0.0.0",
+    "check:content": "node scripts/check-content.mjs",
     "build": "vitepress build",
     "preview": "vitepress preview --host 0.0.0.0"
   },
